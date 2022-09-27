@@ -1,5 +1,7 @@
 import "./App.css";
 import { useState, useEffect } from "react";
+import Lottie from "lottie-react-web";
+import boom from "../src/animation/boom.json";
 
 function App() {
   useEffect(() => {
@@ -25,23 +27,28 @@ function App() {
   });
 
   return (
-    <div className="container">
-      <div className="card active">
-        <h3>바람 소리</h3>
-      </div>
-      <div className="card">
-        <h3>빗 소리</h3>
-      </div>
-      <div className="card">
-        <h3>천둥 소리</h3>
-      </div>
-      <div className="card">
-        <h3>빗물 소리</h3>
-      </div>
-      <div className="card">
-        <h3>바다 소리</h3>
-      </div>
-    </div>
+    // <div className="container">
+    //   <div className="card active">
+    //     <h3>바람 소리</h3>
+    //   </div>
+    //   <div className="card">
+    //     <h3>빗 소리</h3>
+    //   </div>
+    //   <div className="card">
+    //     <h3>천둥 소리</h3>
+    //   </div>
+    //   <div className="card">
+    //     <h3>빗물 소리</h3>
+    //   </div>
+    //   <div className="card">
+    //     <h3>바다 소리</h3>
+    //   </div>
+    // </div>
+    <Lottie
+      options={{ animationData: boom, loop: true, autoplay: true }}
+      height={400}
+      width={400}
+    />
   );
 }
 
