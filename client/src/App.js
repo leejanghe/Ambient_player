@@ -27,28 +27,47 @@ function App() {
   });
 
   return (
-    // <div className="container">
-    //   <div className="card active">
-    //     <h3>바람 소리</h3>
-    //   </div>
-    //   <div className="card">
-    //     <h3>빗 소리</h3>
-    //   </div>
-    //   <div className="card">
-    //     <h3>천둥 소리</h3>
-    //   </div>
-    //   <div className="card">
-    //     <h3>빗물 소리</h3>
-    //   </div>
-    //   <div className="card">
-    //     <h3>바다 소리</h3>
-    //   </div>
-    // </div>
-    <Lottie
-      options={{ animationData: boom, loop: true, autoplay: true }}
-      height={400}
-      width={400}
-    />
+    <div className="container">
+      <div className="card active">
+        <Lottie options={{ animationData: boom, loop: true, autoplay: true }} />
+        <h3>빨간 소리</h3>
+      </div>
+
+      <div className="card">
+        <Lottie options={{ animationData: boom, loop: true, autoplay: true }} />
+        <h3>주황 소리</h3>
+      </div>
+
+      <div className="card">
+        <Lottie options={{ animationData: boom, loop: true, autoplay: true }} />
+        <h3>노랑 소리</h3>
+      </div>
+
+      <div className="card">
+        <Lottie options={{ animationData: boom, loop: true, autoplay: true }} />
+        <h3>초록 소리</h3>
+      </div>
+
+      <div className="card">
+        <Lottie options={{ animationData: boom, loop: true, autoplay: true }} />
+        <h3>파랑 소리</h3>
+      </div>
+
+      <div className="card">
+        <Lottie options={{ animationData: boom, loop: true, autoplay: true }} />
+        <h3>남색 소리</h3>
+      </div>
+
+      <div className="card">
+        <Lottie options={{ animationData: boom, loop: true, autoplay: true }} />
+        <h3>보라 소리</h3>
+      </div>
+    </div>
+    // <Lottie
+    //   options={{ animationData: boom, loop: true, autoplay: true }}
+    //   height={400}
+    //   width={400}
+    // />
   );
 }
 
