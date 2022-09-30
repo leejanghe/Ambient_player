@@ -63,6 +63,7 @@ function App() {
           src={purpleSound}
           autoPlay="autoPlay"
           type="audio/mp3"
+          loop="loop"
           ref={audioRef}
         />
       </div>
