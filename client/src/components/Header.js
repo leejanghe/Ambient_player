@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import { BsPlayCircleFill } from "react-icons/bs";
+
+import { BsPauseCircleFill } from "react-icons/bs";
 
 const StyledHeader = styled.div`
   display: flex;
@@ -7,18 +10,26 @@ const StyledHeader = styled.div`
   align-items: center;
   padding: 0 20px;
   background-color: #fff;
-  border-bottom: 1px solid #e5e5e5;
   height: 160px;
   box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+  > h3 {
+    margin-right: 30px;
+    font-size: 2rem;
+  }
   > button {
     margin: 0 10px;
-    padding: 20px 30px;
-    border: 1px solid #e5e5e5;
-    border-radius: 5px;
-    background-color: #fff;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
     cursor: pointer;
-    &:hover {
-      background-color: #e5e5e5;
+    > svg {
+      color: #d3d3d3;
+      font-size: 50px;
+      &:hover {
+        color: #000;
+      }
     }
   }
 `;
@@ -26,8 +37,13 @@ const StyledHeader = styled.div`
 function Header({ handlePlay, handlePause }) {
   return (
     <StyledHeader>
-      <button onClick={handlePlay}>저는 재생입니다.</button>
-      <button onClick={handlePause}>저는 정지입니다.</button>
+      <h3>Sound by Color</h3>
+      <button onClick={handlePlay}>
+        <BsPlayCircleFill />
+      </button>
+      <button onClick={handlePause}>
+        <BsPauseCircleFill />
+      </button>
     </StyledHeader>
   );
 }

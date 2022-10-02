@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { AiFillGithub } from "react-icons/ai";
 
 const StyledFooter = styled.div`
   display: flex;
@@ -13,7 +14,11 @@ const StyledFooter = styled.div`
 `;
 
 function footer(props) {
-  return <StyledFooter>footer</StyledFooter>;
+  return (
+    <StyledFooter>
+      <AiFillGithub />
+    </StyledFooter>
+  );
 }
 
 export default footer;
