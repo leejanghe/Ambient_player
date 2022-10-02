@@ -51,32 +51,6 @@ function Main(props) {
     });
   });
 
-  // useEffect(() => {
-  //   if (playSound === "red") {
-  //     const audio = new Audio(redSound);
-  //     audio.play();
-  //   } else if (playSound === "orange") {
-  //     const audio = new Audio(orangeSound);
-  //     audio.play();
-  //   } else if (playSound === "yellow") {
-  //     const audio = new Audio(yellowSound);
-  //     audio.play();
-  //   } else if (playSound === "green") {
-  //     const audio = new Audio(greenSound);
-  //     audio.play();
-  //   } else if (playSound === "blue") {
-  //     const audio = new Audio(blueSound);
-  //     audio.play();
-  //   } else if (playSound === "indigo") {
-  //     const audio = new Audio(indigoSound);
-  //     audio.play();
-  //   } else if (playSound === "purple") {
-  //     const audio = new Audio(purpleSound);
-  //     audio.play();
-  //   }
-
-  // }, [playSound]);
-
   // 소리 제어
   const audioRefR = useRef(null);
   const audioRefY = useRef(null);
@@ -162,8 +136,6 @@ function Main(props) {
       <Header handlePlay={handlePlay} handlePause={handlePause} />
       <Body
         handleSetId={handleSetId}
-        // handlePlay={handlePlay}
-        // handlePause={handlePause}
         audioRefR={audioRefR}
         audioRefO={audioRefO}
         audioRefY={audioRefY}

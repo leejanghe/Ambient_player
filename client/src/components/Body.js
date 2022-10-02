@@ -83,6 +83,7 @@ function Body({
             // autoPlay="autoPlay"
             type="audio/mp3"
             ref={audioRefG}
+            loop="loop"
           />
         </div>
       </div>
