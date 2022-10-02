@@ -14,14 +14,15 @@ body {
 
 .container {
   display: flex;
-  width: 90vw;
+  width: 70vw;
+  /* height: 50%; */
 }
 
 .card {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 70vh;
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
