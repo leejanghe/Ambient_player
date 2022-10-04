@@ -3,12 +3,11 @@ import styled from "styled-components";
 import { AiFillGithub } from "react-icons/ai";
 
 const StyledFooter = styled.div`
-  padding: 0 20px;
+  padding: 0 10px;
   background-color: #fff;
-  height: 160px;
   box-sizing: border-box;
   > div {
-    margin-top: 30px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;

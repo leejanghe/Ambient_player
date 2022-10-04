@@ -5,13 +5,13 @@ import { BsPlayCircleFill } from "react-icons/bs";
 import { BsPauseCircleFill } from "react-icons/bs";
 
 const StyledHeader = styled.div`
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 20px;
+  border-radius: 15px;
+  padding: 5px;
   background-color: #fff;
-  height: 160px;
   box-sizing: border-box;
   border: 1px solid #e5e5e5;
   margin-bottom: 10px;
