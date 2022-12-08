@@ -2,6 +2,10 @@
 
 ---
 
+![image](https://user-images.githubusercontent.com/75570030/206401477-8e540daf-2081-4126-8e26-be5daadd6895.png)
+
+
+
 ### 배포 링크
 
 [https://ambient-player-client.vercel.app/](https://ambient-player-client.vercel.app/)
@@ -37,4 +41,3 @@ useRef를 활용하여 컴포넌트 제어하기!
 - [x] - 스크립트 적용
 - [x] - 로티 적용
 - [x] - mp3 & 애니메이션 서치 완료
-- [ ] 클린 코딩 (컴포넌트 정리 및 스타일 컴포넌트 작업)
